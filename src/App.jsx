@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import Hero from './Hero'
 import SkillsSection from './Skill'
 import Projects from './Projects'
+import Contact from './Contact'
 import './App.css'
 import {BrowserRouter,  Routes , Route } from 'react-router-dom'
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<SkillsSection />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

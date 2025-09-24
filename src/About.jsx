@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion ,useInView } from 'framer-motion';
 import Button from './Components/Button.jsx';
-import CV from '../FUADCV.pdf';
+
 import { useRef } from 'react';
 function About() {
     const ref = useRef(null);
@@ -18,7 +18,7 @@ function About() {
             style={{ fontFamily: "'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" }}
         >
             <div className="flex flex-col items-center">
-                <Button text="Download CV" link={CV} />
+                <Button text="Download CV"  />
             </div>
             <motion.div
                 initial={{ opacity: 0, x: 40 }}

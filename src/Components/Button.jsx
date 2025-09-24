@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Button = (props) => {
   return (
     <StyledWrapper>
-      <a className="fancy" href={props.link} target="_blank" rel="noopener noreferrer">
+      <a className="fancy" href="/FUADCV.pdf" download target="_blank" rel="noopener noreferrer">
         <span className="top-key" />
         <span className="text">{props.text}</span>
         <span className="bottom-key-1" />

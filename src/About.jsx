@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion ,useInView } from 'framer-motion';
 import Button from './Components/Button.jsx';
-import CV from './FUADCV.pdf';
+import CV from '../FUADCV.pdf';
 import { useRef } from 'react';
 function About() {
     const ref = useRef(null);

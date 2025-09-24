@@ -14,7 +14,7 @@ const TextPressure = ({
   alpha = false,
 
   flex = true,
-  stroke = false,
+  stroke = true,
   scale = false,
 
   textColor = '#FFFFFF',

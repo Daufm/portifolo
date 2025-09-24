@@ -28,7 +28,7 @@ const StyledWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.4em 0em 0.4em 0.5em;
+    padding: 0.2em 0em 0.2em 0.3em;
     background-color: yellow;
     cursor: pointer;
     box-shadow: 4px 6px 0px black;
@@ -65,7 +65,7 @@ const StyledWrapper = styled.div`
     align-items: center;
     overflow: hidden;
     max-width: 35%; /* adjust this if the button text is not proper */
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 600;
   }
   .bgContainer span {
